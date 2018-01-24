@@ -1,5 +1,7 @@
 ## Example of using render prop for Stencil
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jagreehal/stencil-render-prop.svg)](https://greenkeeper.io/)
+
 So using [render props](https://reactjs.org/docs/render-props.html) is a great pattern.
 
 In the 'mouse-tracker.tsx' file
