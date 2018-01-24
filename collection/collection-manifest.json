@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "tag": "mouse-cat",
+      "componentClass": "MouseCat",
+      "componentPath": "components/mouse-cat/mouse-cat.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "mouse",
+          "type": "Any"
+        }
+      ]
+    },
+    {
+      "tag": "mouse-placeholder",
+      "componentClass": "MousePlaceholder",
+      "componentPath": "components/mouse-placeholder/mouse-placeholder.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "mouse",
+          "type": "Any"
+        }
+      ]
+    },
+    {
+      "tag": "mouse-state",
+      "componentClass": "MouseState",
+      "componentPath": "components/mouse-state/mouse-state.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "_render",
+          "type": "Any"
+        }
+      ],
+      "states": [
+        {
+          "name": "x"
+        },
+        {
+          "name": "y"
+        }
+      ]
+    },
+    {
+      "tag": "mouse-tracker",
+      "componentClass": "MouseTracker",
+      "componentPath": "components/mouse-tracker/mouse-tracker.js",
+      "styles": {}
+    }
+  ],
+  "bundles": [
+    {
+      "components": [
+        "mouse-cat"
+      ]
+    },
+    {
+      "components": [
+        "mouse-placeholder"
+      ]
+    },
+    {
+      "components": [
+        "mouse-state",
+        "mouse-tracker"
+      ]
+    }
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.2.2",
+    "typescriptVersion": "2.6.2"
+  }
+}
