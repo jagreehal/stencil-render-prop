@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h,Context}=window.StencilRenderProp;class MousePlaceholder{render(){const e=`${this.mouse.x}px`,t=`${this.mouse.y}px`;return h("img",{src:"http://via.placeholder.com/350x150",style:{position:"absolute",left:e,top:t}})}static get is(){return"mouse-placeholder"}static get properties(){return{mouse:{type:"Any"}}}}export{MousePlaceholder};
