@@ -46,3 +46,5 @@ export class MouseState {
   }
 }
 ```
+
+See the [example in action here](https://jagreehal.github.io/stencil-render-prop/).
